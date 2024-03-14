@@ -37,7 +37,7 @@ body {
    font-size: 16px;
    padding: 10px;
    border-color:darkgray;
-   background: url(eye-solid.svg);
+   background: url(/img/eye-solid.svg);
    background-repeat: no-repeat;
    background-size: 22px;
    background-position: 300px;
@@ -114,7 +114,7 @@ body {
     border: none;
     margin-top: 40px;
     cursor: pointer;
-    background-image: url(facebook-f.svg);
+    background-image: url(/img/facebook-f.svg);
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 15px;
@@ -130,7 +130,7 @@ body {
     margin-top: 20px;
     background-color: transparent;
     cursor: pointer;
-    background-image: url(google.svg);
+    background-image: url(/img/google.svg);
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: 13px;
