@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.apresentacao__titulo {
+    display: flex;
+    justify-content: center;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 25px 0 0 0;
+}
+
+.apresentacao__frase {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 35px 0;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+}
+.signup__section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px 20px 40px;
+    gap: 28px;
+}
+
+.username {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.email {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.number {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.password{
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background: url(/img/eye\ password\ logo.png);
+    background-repeat: no-repeat;
+    background-position: 270px;
+}
+
+.signup__button {
+    padding: 10px;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background-color: #0E64D2;
+    color: #fff;
+    border:none;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    padding: 0 0 35px 35px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    gap: 8px;
+}
+
+.line {
+    height: 0.1px;
+    background-color: #000000;
+    width: 120px;
+}
+
+.social__signup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px 20px 40px;
+    gap: 26px;
+}
+
+.facebook__button {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #1877F2;
+    background-image: url(/img/Facebook\ Logo.png);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    border: none;
+}
+
+.google__button {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    background-image: url(/img/Google\ Logo.png);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-color: #fff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px 20px;
+}
+
+.rodape__frase {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.rodape__link {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #2F89FC;
+}
